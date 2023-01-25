@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eyeexport {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  z-index: 10000;
+  /* background-color: rgba(210, 204, 205, 0.516); */
+  /* background-color: rgb(188, 241, 226); */
+  background-color: azure;
+}
+
+.exportlogo {
+  width: 20%;
+}
+.exportlogo img {
+  padding: 10px;
+  width: 150px;
+}
+
+.export-list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.export-list li a {
+  text-decoration: none;
+}
+
+.exporticon {
+  display: none;
+}
+.exportbanner img {
+  height: 80vh;
+}
+.exportwelcome {
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color: #96eefd;
+}
+.exportpera {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 18px;
+}
+.exportlist {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 18px;
+}
+.exportfoot {
+  background: url("https://www.nginx.com/nginxconf/wp-content/uploads/Conf2018-background-bottom-desktop-1366x705.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* background-color: rgb(223, 195, 249); */
+  height: 60vh;
+  margin-top: 80px;
+}
+.exportfooter {
+  padding-top: 60px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.exabout {
+  width: 20%;
+  color: white;
+}
+.extime {
+  width: 15%;
+  color: white;
+}
+.exaddress {
+  width: 20%;
+  color: white;
+}
+.excontact {
+  width: 20%;
+  color: white;
+}
+.exicons {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  font-size: 30px;
+  width: 20%;
+}
+.exicons i {
+  margin-top: 40px;
+  color: white;
+  padding: 20px;
+  /* border: 1px solid rgb(105, 5, 5);
+  border-radius: 50%; */
+}
+.excopyright {
+  padding-top: 50px;
+  margin: 0 auto;
+  font-size: 15px;
+  width: 35%;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .eyeexport {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+    padding: 0 60px;
+  }
+  .export-list {
+    padding: 20px 0;
+    text-align: center;
+    /* display: none; */
+    width: 100%;
+    background-color: azure;
+
+    flex-direction: column;
+    position: absolute;
+    top: -300px;
+    left: 0;
+    z-index: -1;
+  }
+  .export-list li a {
+    text-decoration: none;
+  }
+
+  .export-list.active {
+    top: 50px;
+  }
+  .exporticon {
+    display: block;
+  }
+  .exporticon button {
+    background-color: azure;
+  }
+  .exportfoot {
+    height: 100%;
+    text-align: left;
+  }
+  .exportfooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .exabout {
+    width: 50%;
+    color: white;
+  }
+  .extime {
+    width: 50%;
+    color: white;
+  }
+  .exaddress {
+    width: 50%;
+    color: white;
+  }
+  .excontact {
+    width: 50%;
+    color: white;
+  }
+}

@@ -1,0 +1,20 @@
+.eyeform {
+  padding-top: 90px;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+form label {
+  margin-bottom: 10px;
+  /* display: flex; */
+}
+form input {
+  width: 200px;
+  padding: 10px;
+  margin-left: 100px;
+}
+textarea {
+  width: 200px;
+
+  margin-left: 67px;
+}

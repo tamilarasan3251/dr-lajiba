@@ -1,0 +1,21 @@
+.banneri img {
+  width: 100%;
+  height: 80vh;
+}
+.ayushimgwelcome {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.ayushwelcome h2 {
+  margin-top: 180px;
+  text-transform: uppercase;
+  color: rgb(114, 248, 5);
+  font-size: 60px;
+}
+.ayushaboutimg {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,11 @@
+.Exportmap {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .Exportmap iframe {
+    width: 400px;
+    height: 400px;
+  }
+}

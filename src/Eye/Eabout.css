@@ -1,0 +1,11 @@
+.eyeimgcon {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.eyeimg img {
+  width: 100%;
+}
+.eyecon {
+  width: 50%;
+}

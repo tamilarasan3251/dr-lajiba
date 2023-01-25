@@ -1,0 +1,8 @@
+.aservice {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px 30px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}

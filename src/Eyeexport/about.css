@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.export-about-img {
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+.export-about {
+  font-size: 16px;
+  line-height: 35px;
+  margin: 0 auto;
+  width: 84%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.about-h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

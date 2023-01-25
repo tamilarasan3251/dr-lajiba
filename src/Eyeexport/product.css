@@ -1,0 +1,26 @@
+.exportproduct {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 90px;
+  justify-content: space-around;
+}
+.exportproduct h5 {
+  color: #008000;
+}
+.exportproduct span {
+  color: rgb(56, 7, 33);
+  font-size: 20px;
+}
+
+.exportproduct button {
+  border: none;
+  border-radius: 10px;
+  color: rgb(56, 47, 240);
+  padding: 10px;
+  background-color: rgb(242, 193, 193);
+}
+.exportproduct button:hover {
+  background-color: rgb(205, 10, 10);
+}

@@ -1,0 +1,8 @@
+.balajiservice img {
+  padding-bottom: 40px;
+}
+.balajiservice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

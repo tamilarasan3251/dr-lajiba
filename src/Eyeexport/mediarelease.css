@@ -1,0 +1,11 @@
+.mediarelease {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mediarelease img {
+  margin-top: 60px;
+}

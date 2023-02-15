@@ -94,7 +94,7 @@ function Join() {
           <div className="contact">
             <h2>CONTACT</h2>
             <div className="line"></div>
-            <h4>EMAIL</h4>
+            <h4>E-MAIL</h4>
             <span>1drlajibacure@gmail.com</span>
             <h4>PHONE</h4>
             <span>9842515552, 9976615552</span>

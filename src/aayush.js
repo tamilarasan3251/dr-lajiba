@@ -141,7 +141,6 @@ function Footer() {
           <p>
             <i class="fa-solid fa-house"></i> ADDRESS
           </p>
-
           <span>
             DR Lajiba Aayush Polyclinic,
             <br />
@@ -151,6 +150,7 @@ function Footer() {
             <br />
             Erode.
           </span>
+          console.log();
         </div>
         <div className="time">
           <p>

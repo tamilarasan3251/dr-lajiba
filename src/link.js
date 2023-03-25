@@ -35,28 +35,28 @@ function Join() {
       </div>
       <div className="banner">
         <Carousel>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src="https://www.shankarseyehospital.org/assets/images/banner07.jpg"
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src="https://www.lakshmisiddhaclinic.com/wp-content/uploads/2020/05/footer1.jpg"
               alt="Second slide"
             />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src="https://ambicayurved.com/wp-content/uploads/2021/12/Everything-You-Need-To-Know-About-Ayurveda.png"
               alt="Third slide"
             />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src="https://img.freepik.com/premium-photo/ayurvedic-anti-bacterial-herbs-neem-lilac-azadirachta-indica-with-oil-bottle-with-mortar-isolated-plain-background-selective-focus_466689-64704.jpg?w=2000"
